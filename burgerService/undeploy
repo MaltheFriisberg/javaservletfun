@@ -1,0 +1,3 @@
+#!/bin/bash
+set -e
+rm -rf /home/malthe/wildfly-11.0.0.Final/standalone/deployments/burgerService*

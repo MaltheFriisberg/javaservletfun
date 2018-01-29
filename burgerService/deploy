@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+mvn clean package
+cp target/burgerService.war /c/'Program Files'/wildfly-11.0.0.Final/standalone/deployments/
